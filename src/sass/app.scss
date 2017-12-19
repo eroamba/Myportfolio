@@ -1,0 +1,26 @@
+// Import bulma variables
+@import '../../node_modules/bulma/sass/utilities/initial-variables';
+
+// 2. Set your own initial variables
+// Update blue
+$blue: #72d0eb;
+// Add pink and its invert
+$pink: #96A6CA;
+$red: #D42B1E;
+$danger: #D42B1E;
+$pink-invert: #fff;
+// Add a serif family
+$family-serif: "Lato", "Georgia", serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+// Use the new serif family
+$family-primary: $family-serif;
+
+// Import bulma
+@import '../../node_modules/bulma/bulma';
+
+// Your code goes here
+@import './components/hello'
