@@ -4,8 +4,300 @@
   <meta charset="UTF-8">
   <title>Orus Html Starter Kit</title>
   <link rel="stylesheet" href="/build/css/app.css">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+        
+        ul{
+            border: 2px solid goldenrod;
+            width: 250px;
+            height: 20px;
+            margin: auto;
+        }
+        li{
+            width: 50px;
+            height: 7px;
+            background-color: rgba(179, 174, 174, 0.747);             
+ 
+        }
+        li:hover{
+            width: 50px;
+            height: 10px;
+            background-color: #5CA1F1;
+        }
+        .color{
+            background-color: #5CA1F1;
+        }
+        
+
+        @media only screen and (max-width: 820px) {
+            
+                .but{
+                        margin:0 auto;
+                        width: 100px;
+                        height:100px;
+                        border: 5px solid red;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                }
+                .partenaires{
+                    margin:0 auto;
+                    width: 100px;
+                }
+            
+            
+        }
+  </style>
+
+</head>             
 <body>
+    <header class="hero is-medium is-info" >
+        <div class="container ">
+               <nav class="navbar hero-header level" style="border-bottom :1px solid rgba(223, 215, 215, 0.301);" >         
+                       <div class="level-left">
+                           <div class="level-item">
+                               <p>
+                                  <strong class="title is-5">Roamba</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="is-size-7"> Hotline-8800 1781 145 245</span>
+                               </p>
+                           </div>
+                       </div>
+                       <div class="level-right" class="head">
+                           <p class="level-item"> <a class="navbar-item"> Work</a></p>
+                           <p class="level-item"><a class="navbar-item">About</a></p>
+                           <p class="level-item"> <a class="navbar-item">Contact</a></p>
+                       </div>  
+               </nav>
+               <section class="hero-body" style="border:2px solid brown;">
+                       <article class="columns" style="border:2px solid brown;">
+                               <aside class="column is-two-thirds"> 
+                                   <p class="presentation title is-2" >
+                                       "<br>
+                                       I'm a full stack developer, and for me, things are always avolving, and such evolution is necessary
+                                   </p>
+                               </aside>
+                               <aside class="column is-2 is-mobile" style="border:2px solid brown;">
+                                       <figure class="image is-x128">
+                                               <img src="assets/avataaar.png">
+                                       </figure>
+                               </aside>          
+                           </article>
+               </section>
+        </div>               
+   </header>
+   <main>
+     <section class="presentation hero  is-medium is-bold">
+        <div class="container">
+            <header class="hero-body" style="border:2px solid red;"> 
+                  <div class="columns">
+                    <aside class="column is-half" style="border:2px solid black;">
+                      <p class="testimonial has-text-weight-bold is-size-4">
+                        I really like  to look professionnal but also have personnal flare.
+                        You will never find me  in head-to-toe designer.
+                      </p>
+                      <br>
+                      <div class="but">
+                        <a class="button is-link">Contact Me</a>
+                        <a class="button is-info is-outlined">Know More</a>
+                      </div>
+                      
+                    </aside>
+                    <aside class="column is-half" style="border:2px solid black;">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                      <br>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's   
+                      </p>
+                      </aside>       
+                  
+                </div>  
+          </header>
+          <section class="hero-footer" style="border:2px solid black;">
+              <aside class="columns partenaires">
+                  <div class="column">
+                          <figure class="image is-128x128">
+                                  <img src="assets/it.png">
+                          </figure>
+                  </div>
+                  <div class="column">
+                          <figure class="image is-128x128">
+                                  <img src="assets/coca-cola.png">
+                          </figure>
+                  </div>
+                  <div class="column">
+                          <figure class="image is-128x128">
+                                  <img src="assets/facebook.png">
+                          </figure>
+                  </div>
+                  <div class="column">
+                          <figure class="image is-128x128">
+                                  <img src="assets/budget.png">
+                          </figure>
+                  </div>
+                  <div class="column">
+                          <figure class="image is-128x128">
+                                  <img src="assets/google.png">
+                          </figure>
+                  </div>
+              </aside>
+          </section>
+        </div>
+     </section>
+     <section class="works hero  is-medium is-light">
+       <div class="container">
+          <header class="hero-body" style="border:2px solid red;"> 
+              <h1 class="title is-2">See my works</h1>
+              <li style="background-color:#5CA1F1;width:70px;height:5px;margin:-5px 0 0 180px;"></li>
+              <br>
+              <div class="columns">
+                <aside class="column is-5 is-offset-2" style="border:2px solid black;">
+                    <p class="title is-5">
+                        I really like  to look professionnal but also have personnal flare.  
+                    </p>
+                   
+                    <p class="is-size-5">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type
+                    </p>  
+                </aside>
+                <aside class="column is-5" style="border:2px solid black;">
+                    <figure class="image">
+                        <img src="assets/work.png">
+                    </figure> 
+                </aside>
+            </div> 
+            <ul class="level">
+                    <li class="color"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+            </ul>     
+          </header>
+       </div>
+    </section>
+    <section class="testimonial hero  is-medium">
+        <div class="container">
+           <header class="hero-body" style="border:2px solid red;"> 
+              <div class="columns is-mobile">
+                  <div class="column is-half is-offset-one-quarter ">
+                    <strong>"</strong> 
+                    <p class="has-text-centered">
+                        on a red carpet, you really want to feel your best, so to work with a designer 
+                        who will shape a dress to your figure and take  into consideration your opinions
+                        is really a blessing.
+                    </p>
+                    <br>
+                    <div style="">
+                        <li style="margin:auto;height:3px;background-color:#5CA1F1;"></li>
+                    </div>
+                    <div class="has-text-centered">
+                          <p class="subtitle is-6">Antonia jore</p>
+                          <p class="subtitle is-7">SR. Market</p>
+                          <p class="" style="font-size:10px;">Analyst</p>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div class="columns is-mobile">
+                <div class="column is-three-fifths is-offset-one-fifth">
+                    <figure class="image is-300x300">
+                        <img src="assets/video.png">
+                    </figure> 
+                </div>
+              </div>
+           </header>
+        </div>
+     </section>
+     <section class="works hero  is-medium">
+        <div class="container">
+           <header class="hero-body" style="border:2px solid red;"> 
+               <h1 class="title is-2">Contacts</h1>
+                   <li style="background-color:#5CA1F1;width:70px;height:5px;margin:-5px 0 0 90px;"></li>
+               <br>
+               <div class="columns">
+                 <aside class="column is-5 is-offset-1" style="border:2px solid black;">
+                     <p class="subtitle is-5">
+                         I really like  to look professionnal but also have personnal flare.  
+                     </p>
+                 </aside>
+                 <aside class="column is-5" style="border:2px solid black;">
+                    <a class="button  is-link is-info">
+                        <span>Let's talk</span>
+                        <span class="icon">
+                            <i class="fa  fa-long-arrow-right"></i>
+                        </span>
+                    </a>
+                 </aside>       
+             </div>  
+           </header>
+        </div>
+     </section>
+   </main>
+   <footer class="hero is-medium is-info" >
+      <div class="container ">
+          <nav class="navbar hero-header level" style="border-bottom :1px solid rgba(223, 215, 215, 0.301);" >         
+                  <div class="level-left">
+                      <div class="level-item">
+                          <p>
+                             <strong class="title is-5">Alexandra</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="is-size-7"> Hotline-8800 1781 145 245</span>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="level-right" class="head">
+                      <p class="level-item"> <a class="navbar-item"> Work</a></p>
+                      <p class="level-item"><a class="navbar-item">About</a></p>
+                      <p class="level-item"> <a class="navbar-item">Contact</a></p>
+                  </div>  
+          </nav>
+          <section class="level" >         
+              <div class="level-left">
+                  <div class="level-item">
+                      <p class="subtitle is-7 has-text-white">
+                         Designed by @Junaed. All rigths reversed.
+                      </p>
+                  </div>                     
+              </div>                      
+              <div class="level-right">                           
+                  <p class="level-item"> 
+                      <a class="">
+                          <span class="icon">
+                               <i class="fa  fa-facebook circle"></i>
+                          </span>
+                     </a>
+                 </p>
+                 <p class="level-item"> 
+                      <a class="">   
+                          <span class="icon">
+                               <i class="fa  fa-pinterest-p circle"></i>
+                          </span>
+                     </a>
+                 </p>
+                 <p class="level-item"> 
+                      <a class="">   
+                          <span class="icon">
+                               <i class="fa  fa-twitter circle"></i>
+                          </span>
+                     </a>
+                 </p>
+                 <p class="level-item"> 
+                      <a class="">   
+                          <span class="icon has-text-light">
+                               <i class="fa  fa-linkedin circle"></i>
+                          </span>
+                     </a>
+                 </p>
+                                            
+              </div>                         
+          </section> 
+          <br>
+        </div>
+   </footer>
   <script src="/build/js/app.js"></script>
   <!-- Uncomment when using webpack hot reload feature -->
   <!-- <script src="http://localhost:8080/webpack-dev-server.js"></script> -->
